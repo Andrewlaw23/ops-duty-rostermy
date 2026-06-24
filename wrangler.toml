@@ -1,0 +1,11 @@
+name = "ops-duty-roster"
+main = "index.js"
+compatibility_date = "2026-06-23"
+
+[[durable_objects.bindings]]
+name = "ROSTER"
+class_name = "RosterRoom"
+
+[[migrations]]
+tag = "v1"
+new_classes = ["RosterRoom"]
